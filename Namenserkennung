@@ -1,0 +1,6 @@
+import re
+
+regex = r""
+
+/^(Hr\.?|Fr\.?|Herrn?|Frau) ([A-Za-z,.'-äüöÄÜÖ]+)$/i      #Beispiel: Namenserkennung
+/^[\w-.]+@[\w-]+.[a-z]{2,}$/i                             #Beispiel: Email-Validierung
